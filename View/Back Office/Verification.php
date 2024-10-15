@@ -10,14 +10,11 @@
     $disponible = isset($_POST["disponible"]) ? 'Yes' : 'No';
     $categorie = $_POST["categorie"];
 
-    // Create Travel object
     $offre1 = new Traveloffer($titre, $destination, $date_departure, $date_retour, $prix, $disponible, $categorie);
 
-    // Display using var_dump
     var_dump($offre1);
 
 
-    // Display using the show method
     $controller = new TravelOfferController();
     $controller->showtraveloffre($offre1);
 ?>

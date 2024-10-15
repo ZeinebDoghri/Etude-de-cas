@@ -54,7 +54,7 @@
                 </select>
             </div>
 
-            <!-- Submit button sends the data to the PHP script -->
+            
             <button id="submit" class="btn btn-primary" type="submit">Add Offer</button>
         </form>
     </div>

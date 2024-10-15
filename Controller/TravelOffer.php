@@ -1,7 +1,6 @@
 <?php
     class TravelOfferController {
         public function showtraveloffre($offre) {
-            // Accessing data using getters
             echo "<table border>
                     <tr>
                         <th>Title</th>
